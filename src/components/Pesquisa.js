@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class Input extends Component {
+class Pesquisa extends Component {
   state = {
     query: '',
     containerWidth: '10%',
@@ -100,4 +100,4 @@ class Input extends Component {
   }
 }
 
-export { Input };
+export { Pesquisa };

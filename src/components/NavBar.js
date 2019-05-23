@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Logo, Menu, Input, Avatar } from './index';
+import { Logo, Menu, Pesquisa, Avatar } from './index';
 
 class NavBar extends Component {
 
@@ -7,7 +7,7 @@ class NavBar extends Component {
         page: 'início'
     }
 
-    // changeMenuMarkerHandler = (page) => this.setState({ page });
+    changeMenuMarkerHandler = (page) => this.setState({ page });
 
     render() {
         return (
@@ -17,7 +17,7 @@ class NavBar extends Component {
                     page={this.state.page}
                     changeMenuMarker={(page) => this.changeMenuMarkerHandler(page)}
                 />
-                <Input
+                <Pesquisa
                     placeholder="Filmes, pessoas..."
                     onEnterPressed={query => this.props.onSearchMovies(query)}
                     onCollapseInputHandler={() => this.props.onCollapseInputHandler()}

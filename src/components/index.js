@@ -1,9 +1,9 @@
 export * from './Avatar';
-// export * from './Button';
-// export * from './Carousel';
-export * from './Input';
-// export * from './Jumbotron';
+export * from './Button';
+export * from './Carousel';
+export * from './Pesquisa';
+export * from './Jumbotron';
 export * from './Logo';
 export * from './Menu';
-// export * from './MovieCard';
+export * from './MovieCard';
 export * from './NavBar';

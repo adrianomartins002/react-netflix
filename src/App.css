@@ -1,6 +1,6 @@
 html, .app {
   line-height: 1.5;
-  background: #141414;
+  /* background: #141414; */
   color: #fff;
 }
 
@@ -8,7 +8,6 @@ a {
   text-decoration: none;
   color: #fff;
 }
-
 .app {
   margin-top: 7%;
 }
@@ -25,12 +24,6 @@ a {
   border-bottom: 2px solid #141414;
 }
 
-.navbar-logo {
-  width: 100%;
-  height: 100%;
-  transform: scale(0.65);
-}
-
 .navbar-logo-container {
   cursor: pointer;
   flex: 2;
@@ -39,6 +32,12 @@ a {
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
+}
+
+.navbar-logo {
+  width: 100%;
+  height: 100%;
+  transform: scale(0.65);
 }
 
 .navbar-menu-option-container {
@@ -50,7 +49,6 @@ a {
   justify-content: flex-start;
   align-items: center;
 }
-
 .navbar-menu-option-container span {
   padding: 5px 15px 30px 5px;
   font-size: 22px;
@@ -67,7 +65,6 @@ a {
 .navbar-menu-option span {
   cursor: pointer;
 }
-
 .navbar-input-space {
   flex: 3;
   display: flex;
@@ -86,7 +83,6 @@ a {
   transition: width 0.25s ease-in-out;
   border: 2px solid transparent;
 }
-
 .navbar-input {
   display: flex;
   align-items: center;
@@ -120,7 +116,6 @@ a {
   font-size: 36px;
   margin-left: 30px;
 }
-
 .navbar-avatar-container {
   flex: 1;
   display: flex;
@@ -144,6 +139,7 @@ a {
 .navbar-avatar input {
   cursor: pointer;
 }
+
 
 .movie-card {
   width: 100%;
@@ -361,6 +357,6 @@ a {
   margin: 0;
 }
 
-/*.carousel-content div {
+.carousel-content div {
   overflow: hidden;
-}*/
+}
