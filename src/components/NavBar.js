@@ -7,15 +7,15 @@ class NavBar extends Component {
         page: 'início'
     }
 
-    changeMenuMarkerHandler = (page) => this.setState({ page });
+    mudarItemMenuDestacado = (page) => this.setState({ page });
 
     render() {
         return (
             <div className="navbar-container">
-                <Logo changeMenuMarker={(page) => this.changeMenuMarkerHandler(page)} />
+                <Logo changeMenuMarker={(page) => this.mudarItemMenuDestacado(page)} />
                 <Menu
                     page={this.state.page}
-                    changeMenuMarker={(page) => this.changeMenuMarkerHandler(page)}
+                    mudarItemMenuDestacado={(page) => this.mudarItemMenuDestacado(page)}
                 />
                 <Pesquisa
                     placeholder="Filmes, pessoas..."
