@@ -9,7 +9,7 @@ const Home = ({ movieJumbotron, favoriteList, onAddListPressed, movies }) => (
       onAddListPressed={movie => onAddListPressed(movie)}
     />
 
-    <Carousel title="Nos Cinemas">
+    <Carousel title="Minha lista">
       {movies.lastestMovies.map(movie => (
         <MovieCard
           key={movie.id}

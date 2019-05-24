@@ -2,7 +2,7 @@ import React from 'react';
 import { Button } from './index';
 
 const imageUrl = 'https://image.tmdb.org/t/p/';
-const size = 'w500';
+const size = 'w300';
 const TRUNCATE_LENGTH = 100;
 
 const MovieCard = ({ movie, favoriteList, onAddListPressed }) => (

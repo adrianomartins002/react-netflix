@@ -25,7 +25,7 @@ class Carousel extends Component {
             placeholderItem={<div style={{ height: 250, background: '#202020' }}></div>}
 
             // Carousel configurations
-            numberOfCards={3}
+            numberOfCards={6}
             gutter={12}
             showSlither={true}
             firstAndLastGutter={true}
